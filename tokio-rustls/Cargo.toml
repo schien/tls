@@ -23,6 +23,7 @@ dangerous_configuration = ["rustls/dangerous_configuration"]
 early-data = []
 logging = ["rustls/logging"]
 tls12 = ["rustls/tls12"]
+secret_extraction = ["rustls/secret_extraction"]
 
 [dev-dependencies]
 tokio = { version = "1.0", features = ["full"] }
